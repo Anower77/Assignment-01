@@ -1,0 +1,114 @@
+.progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-circle .progress-value {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* .progress-text {
+    /* margin-top: 10px; */
+/* } */
+
+
+.progress{
+    display: flex;
+    border: 2px solid black;
+}
+
+.program-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pc1{
+    background: url(online-shopping/Images/2.png) center/cover no-repeat;
+}
+.pc2{
+    background: url(online-shopping/Images/3.png) center/cover no-repeat;
+}
+.pc3{
+    margin-top: -90px;
+    background: url(online-shopping/Images/4.png) center/cover no-repeat;
+}
+.program-card::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(65, 41, 41, 0.5);
+}
+.program-content {
+    position: relative;
+    color: #fff;
+    text-align: left;
+    z-index: 2;
+    padding: 60px;
+}
+button{
+    border: none;
+    background-color:rgb(228, 83, 47);
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+/* feom  */
+.form-control {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-control:focus {
+    border: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #007bff; 
+}
+
+
+
+/* footer  */
+.footer { 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    padding: 40px 0; 
+} 
+.footer a { 
+    color: #fff; 
+    text-decoration: none; 
+} 
+
